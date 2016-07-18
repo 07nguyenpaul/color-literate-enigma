@@ -1,17 +1,22 @@
-.container-btn {
+/* .container-btn {
   display: flex;
   height: 20vh;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 250px;
-}
+} */
 
 body{
   background-color: white;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
   width: 200px;
+  height: 80px;
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   background-color: #E5B6D5;
@@ -20,7 +25,6 @@ button {
   border-right: 10px solid #CC7FB5;
   border-top: 10px solid #B2479A;
   border-bottom: 10px solid #B2479A;
-  text-align: center;
   margin: 20px;
 }
 
@@ -32,14 +36,15 @@ button:hover {
   border-bottom: 10px solid #CC7FB5;
 }
 
-@media screen and (max-width: 478px) {
+@media screen and (max-width: 550px) {
   .random-btn, .container-btn {
+    
     height: 120px;
     margin-top: 115px;
   }
 }
 
-@media screen and (max-width: 478px) {
+@media screen and (max-width: 550px) {
   .reset-btn {
     height: 65px;
   }
