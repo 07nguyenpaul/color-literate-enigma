@@ -6,17 +6,27 @@ function getRandomInt(min, max) {
 }
 
 function generateColor(){
-  var diffBackgroundColor = document.querySelector("body");
 
   var r = getRandomInt(0, 255);
   var g = getRandomInt(0, 255);
   var b = getRandomInt(0, 255);
 
-  diffBackgroundColor.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
+  return "rgb(" + r + "," + g + "," + b + ")";
 }
 
 randButton.addEventListener('click', function() {
-  generateColor();
+  var diffBackgroundColor = document.querySelector("body");
+
+  var randomColor = generateColor();
+  var ifWhite = true;
+
+  while (ifWhite) {
+    if (randomColor == "rgb(255,255,255)") {
+      randomColor = generateColor();
+    }
+    diffBackgroundColor.style.backgroundColor = randomColor;
+    ifWhite = false;
+  }
 });
 
 
