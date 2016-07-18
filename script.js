@@ -6,17 +6,17 @@ function getRandomInt(min, max) {
 }
 
 function generateColor(){
-    var diffBackgroundColor = document.querySelector("body");
+  var diffBackgroundColor = document.querySelector("body");
 
-    var r = getRandomInt(0, 255);
-    var g = getRandomInt(0, 255);
-    var b = getRandomInt(0, 255);
+  var r = getRandomInt(0, 255);
+  var g = getRandomInt(0, 255);
+  var b = getRandomInt(0, 255);
 
-    diffBackgroundColor.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
+  diffBackgroundColor.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
 }
 
 randButton.addEventListener('click', function() {
-   generateColor();
+  generateColor();
 });
 
 
