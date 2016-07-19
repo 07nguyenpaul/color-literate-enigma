@@ -29,21 +29,46 @@ button:hover {
   border-bottom: 10px solid #CC7FB5;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
   body {
     flex-direction: column;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
   .random-btn {
     height: 160px;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
   button {
     font-size: 45px;
     width: 300px;
+  }
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  .random-btn {
+    height: 210px;
+  }
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  button {
+    font-size: 45px;
+    width: 420px;
   }
 }
