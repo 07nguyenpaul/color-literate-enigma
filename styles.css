@@ -35,13 +35,13 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 375px) {
   .random-btn {
     height: 160px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 375px) {
   button {
     font-size: 45px;
     width: 300px;
