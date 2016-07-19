@@ -1,5 +1,3 @@
-
-
 body{
   display: flex;
   height: 100vh;
@@ -60,7 +58,8 @@ and (max-device-width : 667px) {
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
   .random-btn {
-    height: 250px;
+    height: 270px;
+    margin-bottom: 85px;
   }
 }
 
@@ -68,7 +67,7 @@ and (max-device-width : 667px) {
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
   .reset-btn {
-    height: 150px;
+    height: 155px;
   }
 }
 
@@ -76,11 +75,11 @@ and (max-device-width : 667px) {
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
   button {
-  font-size: 80px;
-  width: 500px;
-  border-left: 20px solid #CC7FB5;
-  border-right: 20px solid #CC7FB5;
-  border-top: 20px solid #B2479A;
-  border-bottom: 20px solid #B2479A;
+    font-size: 83px;
+    width: 600px;
+    border-left: 20px solid #CC7FB5;
+    border-right: 20px solid #CC7FB5;
+    border-top: 20px solid #B2479A;
+    border-bottom: 20px solid #B2479A;
   }
 }
