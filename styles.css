@@ -58,6 +58,7 @@ and (max-device-width : 667px) {
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
   .random-btn {
+    font-size: 90px;
     height: 270px;
     margin-bottom: 85px;
   }
@@ -67,6 +68,7 @@ and (max-device-width : 667px) {
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
   .reset-btn {
+    font-size: 70px;
     height: 155px;
   }
 }
