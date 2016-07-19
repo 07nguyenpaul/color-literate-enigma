@@ -60,7 +60,15 @@ and (max-device-width : 667px) {
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
   .random-btn {
-    height: 210px;
+    height: 250px;
+  }
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  .reset-btn {
+    height: 150px;
   }
 }
 
@@ -68,7 +76,11 @@ and (max-device-width : 667px) {
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
   button {
-    font-size: 45px;
-    width: 420px;
+  font-size: 80px;
+  width: 500px;
+  border-left: 20px solid #CC7FB5;
+  border-right: 20px solid #CC7FB5;
+  border-top: 20px solid #B2479A;
+  border-bottom: 20px solid #B2479A;
   }
 }
