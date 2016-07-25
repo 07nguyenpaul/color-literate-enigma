@@ -3,12 +3,12 @@ body{
   height: 100vh;
   justify-content: center;
   align-items: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 button {
   width: 200px;
   height: 80px;
-  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   background-color: #E5B6D5;
   color: white;
@@ -50,38 +50,25 @@ button:hover {
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
   body {
-    flex-direction: column;
-  }
-}
+   flex-direction: column;
+ }
 
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px) {
-  .random-btn {
-    font-size: 90px;
-    height: 270px;
-    margin-bottom: 85px;
-  }
-}
+ .random-btn {
+   font-size: 30px;
+   height: 90px;
 
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px) {
-  .reset-btn {
-    font-size: 70px;
-    height: 155px;
-  }
-}
+ }
 
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px) {
-  button {
-    font-size: 83px;
-    width: 600px;
-    border-left: 20px solid #CC7FB5;
-    border-right: 20px solid #CC7FB5;
-    border-top: 20px solid #B2479A;
-    border-bottom: 20px solid #B2479A;
-  }
+ .reset-btn {
+   font-size: 30px;
+   height: 60px;
+ }
+
+ button {
+   width: 200px;
+   border-left: 10px solid #CC7FB5;
+   border-right: 10px solid #CC7FB5;
+   border-top: 10px solid #B2479A;
+   border-bottom: 10px solid #B2479A;
+ }
 }
